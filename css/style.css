@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #0a2345, #101c35, #101526, #0b0c18, #010103);
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+}
+p{
+    color: #66778e;
+    line-height: 1.8;
+}
+span{
+    color: #2a5da3;
+}
+
+/* navbar part */
+.navbar-brand{
+    margin-right: 0px;
+}
+.navbar-brand img{
+    width: 75%;
+}
+.navbar h3{
+    color: white;
+    margin-right: auto;
+}
+.custom{
+    color: white!important;
+}
+.custom:hover{
+    color: #ff3334!important;
+}
+.i-custom{
+    color: #2A5EA4;
+}
+.i-custom:hover{
+    color: #ff3334;
+}
+
+/* nav end */
+
+/* banner start */
+.banner p{
+    color: #2A5EA4;
+}
+.btn-custom {
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #153b6d;
+    padding: 6px 15px;
+}
+.btn-custom:hover{
+    border: 1px solid #ff3334;
+}
+.banner button:hover{
+    color: #ff3334;
+}
+/* banner end */
+
+/* music app start */
+.music-app{
+background-image: url(../images/wave.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.items{
+    /* height: 800px; */
+    align-items: center;
+}
+.im-1 img{
+width: 85%;    
+    
+}
+.im-2 img {
+    margin-left: -19px;
+}
+.im-3 img{
+    width: 85%;
+    margin-left: 10px;
+}
+/* music app end */
+
+/* headphone start */
+.headphone{
+    background-image: url(../images/headphone.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 34%;
+    padding: 109px 0;
+}
+.headphone p {
+    line-height: 2;
+    margin-bottom: 33px;
+}
+.btn:hover {
+    color: #ff3334;
+    text-decoration: none;
+}
+
+/* headphone end */
+
+/* features start */
+.features_header{
+    margin-bottom: 80px;
+}
+
+.features_content_1{
+
+}
+.features_content_1 i{
+    
+color: #ff3334;
+    
+font-size: 40px;
+}
+.features_content_1 h3{
+
+color: white;
+
+font-size: 27px;
+
+margin: 20px 0px;
+}
+.phone{
+    position: relative;
+}
+.phone img{
+
+position: absolute;
+
+right: -43%;
+
+transform: translate(-28px, -23%);
+
+width: 178%;
+}
+/* features end */
+
+/* screenshot start */
+.screenshot{
+    background-image: url(../images/vartical_item.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 108px 0;
+    margin: 150px 0;
+}
+.screenshot_content i{
+    
+    color: #ff3334;
+        
+    font-size: 40px;
+    }
+
+.screenshot h3{
+
+    color: white;
+    
+    font-size: 27px;
+    
+    margin: 20px 0px;
+    }
+/* screenshot end */
+
+/* comments start */
+.comments{
+    background-image: url(../images/hand.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.comments_head {
+    margin-top: 151px;
+    color: #66778e;
+}
+.comments_head h4{
+    font-weight: 400;
+    line-height: 2;
+}
+.comments_content{
+    position: relative;
+}
+.comments_content img{
+    left: 0;
+    margin-right: 18px;
+    margin-bottom: 3px;
+}
+.comments_content p{
+    display: contents;font-weight: 700;
+}
+.comments_content span{
+    color: #213a61;
+    font-weight: 700;
+    display: inline;
+}
+/* comments end */
+
+/* dark phone start */
+.dark_phone_content{
+    margin: 100px 0px;
+    text-align: center;
+}
+.dark_phone_content h1{
+    
+margin-bottom: 60px;
+}
+.dark_phone_content p {line-height: 2;}
+.phone_1 img{
+    margin-left: 111px;
+}
+.phone_3 img{
+    margin-left: -72px;
+}
+.button{
+
+margin: 65px -2px;
+}
+.button button{
+    
+padding: 8px 13px;
+    
+margin-left: -20px;
+}
+/* dark phone end */
+
+/* footer start */
+.footer_parent{
+    height: 100px;
+}
+.footer_content{
+
+}
+.footer_content::before{
+    content: "";
+    position: absolute;
+    width: 97%;
+    height: 2px;
+    background-color: #0c1625;
+}
+.footer_content ul{
+margin-top: 8%;
+/* align-items: center; */
+}
+.footer_content ul li a{
+    margin-right: 26px;
+
+text-transform: capitalize;
+
+color: #14396a;
+
+font-weight: 700;
+text-decoration: none;
+}
+.footer_content ul li a:hover{
+    color: #ff3334;
+}
+.footer_copyright{
+
+margin-top: 2%;
+}
+.footer_copyright span{ 
+color: #14396a;
+    
+font-weight: 700;
+}
+/* footer end */
